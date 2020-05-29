@@ -1,0 +1,14 @@
+{
+    "name": "com.rocket.rocketcoroutine",
+    "references": [
+        "com.rocket.rocketlog"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
