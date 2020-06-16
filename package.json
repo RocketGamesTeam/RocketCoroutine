@@ -1,6 +1,6 @@
 {
-  "name": "com.rocket.rocketcoroutine",
-  "version": "1.0.0",
+  "name": "com.rocket.rocketcoroutinetest",
+  "version": "1.0.5",
   "displayName": "Rocket Coroutine",
   "description": "Coroutine helper package for Rocket Games",
   "unity": "2018.3",
@@ -9,7 +9,7 @@
     "rocket"
   ],
   "dependencies": {
-    "com.rocket.rocketlog": "https://github.com/RocketGamesDev/RocketLog.git#55d3e5f9c01cd682e78f16f78a44a1add2d7a057"
+    "com.rocket.rocketlogtest": "1.0.5"
   },
   "author": {
     "name": "Rocket Games",
