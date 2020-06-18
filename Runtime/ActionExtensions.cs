@@ -6,7 +6,6 @@ namespace RocketCoroutine
     {
         public static void DoAfterFixedUpdate(this Action action, string key = null)
         {
-			//test
             CoroutineController.DoAfterFixedUpdate(action, key);
         }
 
