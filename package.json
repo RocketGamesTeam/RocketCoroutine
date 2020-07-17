@@ -8,7 +8,7 @@
     "coroutine",
     "rocket"
   ],
-  "dependencies1": {
+  "dependencies": {
     "com.rocket.rocketlog": "1.0.2"
   },
   "author": {
