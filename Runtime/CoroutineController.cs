@@ -46,7 +46,7 @@ namespace RocketCoroutine
             {
                 if (!overrideIfExists)
                 {
-                    Log.Error(string.Format("Coroutine ALREADY exists! Key: {0}\nHint: You can override it or if you want multiple instances then give this coroutine a key!", key));
+                    Log.Warning(string.Format("Coroutine ALREADY exists! Key: {0}\nHint: You can override it or if you want multiple instances then give this coroutine a key!", key));
                     return;
                 }
 
@@ -82,7 +82,7 @@ namespace RocketCoroutine
 
             if (!Coroutines.ContainsKey(rocCoroutine.Key))
             {
-                Log.Error("Coroutine does NOT exist! Key: " + rocCoroutine.Key);
+                Log.Warning("Coroutine does NOT exist! Key: " + rocCoroutine.Key);
                 return;
             }
 	        
@@ -109,7 +109,7 @@ namespace RocketCoroutine
         {
             if (!Coroutines.ContainsKey(key))
             {
-                Log.Error("Coroutine does NOT exist! Key: " + key);
+                Log.Warning("Coroutine does NOT exist! Key: " + key);
                 return;
             }
 
