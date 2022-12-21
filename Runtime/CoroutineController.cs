@@ -177,14 +177,14 @@ namespace RocketCoroutine
         {
             yield return new WaitForSeconds(time);
 
-            actionToInvoke.Invoke();
+            actionToInvoke?.Invoke();
         }
 
         private static IEnumerator WaitInRealtime(float time, Action actionToInvoke)
         {
             yield return new WaitForSecondsRealtime(time);
 
-            actionToInvoke.Invoke();
+            actionToInvoke?.Invoke();
         }
 
 	    private static string GenerateKey(IEnumerator iEnumerator)
