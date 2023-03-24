@@ -13,7 +13,7 @@ namespace RocketCoroutine
 
         private static readonly Dictionary<string, RocCoroutine> Coroutines = new Dictionary<string, RocCoroutine>();
 
-        private static readonly RocLog Log = new RocLog(typeof(CoroutineController).Name, DebugLevels.Warning);
+        private static readonly RocLog Log = new RocLog(nameof(CoroutineController), DebugLevels.Warning);
 
         /// <summary>
         /// Start Coroutine [Single Instance]
