@@ -1,6 +1,6 @@
 {
   "name": "com.rocket.rocketcoroutine",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "displayName": "Rocket Coroutine",
   "description": "Coroutine helper package for Rocket Games",
   "unity": "2018.3",
