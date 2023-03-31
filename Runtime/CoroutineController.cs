@@ -11,9 +11,17 @@ namespace RocketCoroutine
         public static event Action<RocCoroutine> CoroutineStarted;
         public static event Action<RocCoroutine, bool> CoroutineFinished;
 
-        private static readonly Dictionary<string, RocCoroutine> Coroutines = new Dictionary<string, RocCoroutine>();
+        private static Dictionary<string, RocCoroutine> Coroutines = new Dictionary<string, RocCoroutine>();
 
         private static readonly RocLog Log = new RocLog(nameof(CoroutineController), DebugLevels.Warning);
+
+        public static void Reset()
+        {
+            CoroutineStarted = null;
+            CoroutineFinished = null;
+            
+            Coroutines = new Dictionary<string, RocCoroutine>();
+        }
 
         /// <summary>
         /// Start Coroutine [Single Instance]
